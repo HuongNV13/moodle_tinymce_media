@@ -22,4 +22,23 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['alignment'] = 'Alignment';
+$string['alignment_bottom'] = 'Bottom';
+$string['alignment_left'] = 'Left';
+$string['alignment_middle'] = 'Middle';
+$string['alignment_right'] = 'Right';
+$string['alignment_top'] = 'Top';
+$string['browserepositories'] = 'Browse repositories...';
+$string['constrain'] = 'Auto size';
+$string['enteralt'] = 'Describe this image for someone who cannot see it';
+$string['enterurl'] = 'Enter URL';
+$string['height'] = 'Height';
+$string['imageurlrequired'] = 'An image must have a URL.';
+$string['imageproperties'] = 'Image properties';
+$string['presentation'] = 'This image is decorative only';
+$string['presentationoraltrequired'] = 'An image must have a description, unless it is marked as decorative only.';
 $string['pluginname'] = 'Tiny Media plugin for Moodle';
+$string['saveimage'] = 'Save image';
+$string['toolbarimage'] = 'Moodle Image';
+$string['size'] = 'Size';
+$string['width'] = 'Width';

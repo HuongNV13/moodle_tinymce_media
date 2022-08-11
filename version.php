@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Tiny text editor version file.
+ * Tiny media plugin version details.
  *
- * @package    editor_tiny
- * @copyright  2021 Andrew Lyons <andrew@nicols.co.uk>
+ * @package    tiny_media
+ * @copyright  2022 Huong Nguyen <huongnv13@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

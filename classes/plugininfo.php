@@ -14,6 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/**
+ * Tiny media plugin.
+ *
+ * @package    tiny_media
+ * @copyright  2022 Andrew Lyons <andrew@nicols.co.uk>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 namespace tiny_media;
 
 use editor_tiny\plugin;
@@ -21,14 +29,14 @@ use editor_tiny\plugin_with_buttons;
 use editor_tiny\plugin_with_menuitems;
 
 /**
- * Tiny Editor.
+ * Tiny media plugin.
  *
- * @package    editor_tiny
- * @copyright  2021 Andrew Lyons <andrew@nicols.co.uk>
+ * @package    tiny_media
+ * @copyright  2022 Andrew Lyons <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 class plugininfo extends plugin implements plugin_with_buttons, plugin_with_menuitems {
+
     public static function get_available_buttons(): array {
         return [
             'tiny_media/image',
